@@ -218,4 +218,4 @@ References
 
 .. [#url] `The URL standard <https://tools.ietf.org/html/rfc3986>`__
 
-.. [#components_of_url] ` Components or URL <https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.1.0/com.ibm.cics.ts.internet.doc/topics/dfhtl_uricomp.html>` __
+.. [#components_of_url] `Components or URL <https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.1.0/com.ibm.cics.ts.internet.doc/topics/dfhtl_uricomp.html>`__
