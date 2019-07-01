@@ -122,7 +122,7 @@ At each layer of the OSI model, information is called as a PDU (Packet Data Unit
    :width: 150pt
 
 
-.. image:: images/data_link_pdu.png
+.. image:: images/data_link_header_pdu.png
    :align: center
    :width: 150pt
 
