@@ -8,13 +8,13 @@ HTTP Connection Lifecycle
 Motivation
 ==========
 
-At the tech interview or otherwise, a commonly asked questions are what happens when you type a URL into the browser? What happens behind the scenes when you surf a website? What does a typicall HTTP connection lifecyle entail? I will to answer these questions to the best of my knowledge.
+At the tech interview or otherwise, a commonly asked questions are what happens when you type a URL into the browser? What happens behind the scenes when you surf a website? What does a typical HTTP connection lifecyle entail? I will to answer these questions to the best of my knowledge.
 
 
 The OSI model
 =============
 
-Before diving into the connection process, lets go over the basic OSI model (Open Systems Interconnection model). OSI mode is a conceptual model that standardizes the communication between two systems - one where the request originates (the client) and one that serves the request and sends a response back (the server). The below table shows some of the important characteristivs of each layer.
+Before diving into the connection process, lets go over the basic OSI model (Open Systems Interconnection model). OSI model is a conceptual model that standardizes the communication between two systems - one where the request originates (the client) and one that serves the request and sends a response back (the server). The below table shows some of the important characteristivs of each layer.
 
 +--+--------------+-----------+--------------------------------------+-----------------------+------------------+
 |No|Layer         | Hardware  | Function                             | Protocols/Apps        | Additions        |
@@ -113,7 +113,7 @@ Steps in DNS resolution:
 Step 3: Building the TCP/IP packet
 ----------------------------------
 
-At each layer of the OSI model, information is called as a PDU (Packet Data Unit). So information at the application layer is called as a L7 PDU where as infomation at the Network layer is called as L3 PDU. At each layer, a corresponding layer header is added. The header precedes its body and contains addressing and other data that is required for it to reach its intended destination. Dats on the other hand is passed from the top most layer downwards. L4, L3 and L2 headers are shown below:
+At each layer of the OSI model, information is called as a PDU (Packet Data Unit). So information at the application layer is called as a L7 PDU where as infomation at the Network layer is called as L3 PDU. At each layer, a corresponding layer header is added. The header precedes its body and contains addressing and other data that is required for it to reach its intended destination. Data on the other hand is passed from the top most layer downwards. L4, L3 and L2 headers are shown below:
 
 .. image:: images/ip_packet.png
    :align: center
