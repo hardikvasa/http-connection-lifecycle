@@ -14,7 +14,7 @@ At the tech interview or otherwise, a commonly asked questions are what happens 
 The OSI model
 =============
 
-Before diving into the connection process, lets go over the basic OSI model (Open Systems Interconnection model). OSI model is a conceptual model that standardizes the communication between two systems - one where the request originates (the client) and one that serves the request and sends a response back (the server). The below table shows some of the important characteristivs of each layer.
+Before diving into the connection process, lets go over the basic OSI model (Open Systems Interconnection model). OSI model is a conceptual model that standardizes the communication between two systems - one where the request originates (the client) and one that serves the request and sends a response back (the server). The below table shows some of the important characteristics of each layer.
 
 +--+--------------+-----------+--------------------------------------+-----------------------+------------------+
 |No|Layer         | Hardware  | Function                             | Protocols/Apps        | Additions        |
@@ -42,7 +42,7 @@ The Connection
 Step 1: Parsing the URL
 -----------------------
 
-As soon as you type the URL into the browser and hit enter/return key, the browser (or any client for that matter) would parse the URL [#url]_ to extract inportant components from it. An example URL is given below:
+As soon as you type the URL into the browser and hit enter/return key, the browser (or any client for that matter) would parse the URL [#url]_ to extract important components from it. An example URL is given below:
 
 **https://www.google.com/search?q=cats**
 
