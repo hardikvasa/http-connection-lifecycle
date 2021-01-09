@@ -31,7 +31,7 @@ Before diving into the connection process, lets go over the basic OSI model (Ope
 +--+--------------+-----------+--------------------------------------+-----------------------+------------------+
 |2 |Data link     | Switches  | Physical addr, error detection, flow | Ethernet, Frame relay | L2 Header/Trailer|
 +--+--------------+-----------+--------------------------------------+-----------------------+------------------+
-|1 |Psysical      | Cables    | Bit transferred over physical network| EIA/TIA               | L1 Header        |
+|1 |Physical      | Cables    | Bit transferred over physical network| EIA/TIA               | L1 Header        |
 +--+--------------+-----------+--------------------------------------+-----------------------+------------------+
 
 
